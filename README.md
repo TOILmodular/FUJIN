@@ -16,60 +16,49 @@ Each noise source can be bypassed by an external signal input.
 - Module width 26HP
 
 A demo of the module is available in this YouTube video:
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 [<img width="500" src="https://github.com/TOILmodular/CONTINUUM/assets/97026614/6f868cc5-263f-4b68-b0da-cafaf97a4cc4">
 
 ## How the Module works
-The four oscillator sections are identical.
+The module consists of four identical noise generating sections.
+Each section contains a white noise generator.
+The noise signal is routed through a low-pass filter with cutoff and resonance controls.
+The signal is then split into two channels, each sent through a VCA to an output.
 
-#### FREQUENCY Knob
-The FREQUENCY knob determines the pitch of each oscillator.
-This is a simple drone module with no CV for the pitch.
+#### Cutoff Knob and CUTOFF CV
+The CUTOFF knob and CV input control the filter cutoff of the noise signal.
+The cutoff CV is normalled to four internal LFOs, so that the filter cutoff with no external CV plugged in is modulated by a combination of those LFOs.
+This modulation is slightly different for each section.
 
-#### Waveform Switch
-There are two options for each oscillator's waveform via the toggle switch next to the FREQUENCY knob - triangle or squarewave.
+#### IN 
+The noise signal can be replaced by any other external signal via this input. The internal noise generator is normalled to this jack.
 
-#### CV Controls
-The module contains a quad VCA for modulating the volume of each oscillator. There are three CV options for each VCA.
-The options for internal and touch pad modulation can be selected via a toggle switch.
-Positioning the switch at the center interrupts any modulation signal to be sent from internal or touch pad to the VCA.
+#### RESONANCE knob
+The filter resonance can be controlled via the RESONANCE knob. The filter is not self-oscillating.
 
-##### Touch Pads
-There are two touch pad sections at the bottom of front panel, which are based on a simple mechanism using the conductivity of fingers placed on the pads. Select that option for an oscillator by pushing the related toggel switch down. The pads are also slightly pressure sensitive. So the CV level can be controlled by pressure, but also by the size of the area covered by the fingers. The set of pads on the left are controlling the left two oscillators, the pads on the right are for the other two oscillators on the right.
+#### BIAS knobs and CV inputs (channels A and B)
+Each of the two channels has an own VCA controllable via CV input and with a BIAS knob to as a CV offset.
 
-##### Internal Modulation
-Pushing the modulation option switch up, will cause the VCA of the related oscillator volume to be modulated by a certain pattern created by the combination of two internal LFOs with different rates. That pattern is different for each oscillator.
+#### VOLUME knobs (channels A and B)
+Volume knobs for each of the output channels.
 
-##### External CV
-There is a CV input for each oscillator section. Touch pad and internal CV are normalled to this input. I.e. as long as there is a cable plugged in to the CV input, the only VCA modulation will be from an external source.
-
-#### BIAS Knob
-The BIAS knob provides a CV offset option for the VCA modulation. This is applied to any of the above described options.
-You can turn down the output from any oscillator separately with the BIAS turned to minimum and no CV signal added.
-
-#### FILTER Knob
-The FILTER knob is only functional in case the selected waveform of an oscillator is the squarewave. In that case, it is serving as a simple low-pass filter, morphing the squarewave into a shark fin.
-
-#### VOLUME Knob
-The volume knob is controlling the overall amplitude of the combined drone output.
-
-#### OUT
-The combined output of all four oscillators.
+#### OUT (channels A and B)
+Output jacks for each of the channels.
+Those in combination with the VCA controls can be used for a stereo effect of the module.
 
 ## Module Build and PCBs
 I added two different versions for the control board in the folder GerberFiles, an "original", and a "Thonk" version.
 Reason is that for my own module, I am using specific potentiometers - 16K4 series from Supertech Electronics - and 3.5mm jack sockets - MJ-355 from Marushin - available at my local electronics shop.
 
-<img width="300" alt="CtrlPCB_Orig" src="https://github.com/TOILmodular/CONTINUUM/assets/97026614/570a5092-40ef-4383-aa0a-49949861efb9">
+<img width="300" alt="CtrlPCB_Orig" src="https://github.com/TOILmodular/FUJIN/assets/97026614/8f17df41-11c8-4d36-8c2c-b37f129190d1">
 
 However, since most DIY projects for Eurorack modules out there are using potentiometers from ALPHA and so-called THONKICONN jacks, as they are provided by Thonk in the UK, I also created another control board PCB for the "Thonk" version with footprints for those components.
 
-<img width="300" alt="CtrlPCB_Thonk" src="https://github.com/TOILmodular/CONTINUUM/assets/97026614/c0268639-778e-4047-940f-73d811d0c906">
+<img width="300" alt="CtrlPCB_Thonk" src="https://github.com/TOILmodular/FUJIN/assets/97026614/ce6a1bbc-a053-4b08-a7f0-3a410ccd49d4">
 
 The main PCB is the same for both versions.
 
-<img width="300" alt="MainPCB" src="https://github.com/TOILmodular/CONTINUUM/assets/97026614/c1373d8f-c7fe-41b2-95e6-16e47d34d4c2">
+<img width="300" alt="MainPCB" src="https://github.com/TOILmodular/FUJIN/assets/97026614/dc94dd6e-d988-4a71-9a45-64ae2f939674">
 
 I created the Gerber files with the online tool EasyEDA and ordered the PCBs at JLCPCB.
 
