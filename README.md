@@ -2,7 +2,7 @@
 This Eurorack module provides a kind of wind or noise machine with four separate white noise sources.
 Each has a low-pass filter and two separate output channels via a VCA.
 VCA control is either from external signals or, if unplugged, via different combinations of internal LFOs.
-Each noise source can be bypassed by an external signal input.
+Each internal noise source can be bypassed with an external signal input.
 
 <img height="500" src="https://github.com/TOILmodular/CONTINUUM/assets/97026614/9aa25208-d464-4d61-b3e9-2e5df699201f">
 <img height="500" src="https://github.com/TOILmodular/CONTINUUM/assets/97026614/58ca1409-5d84-451c-b231-6b8a6a3aa704">
