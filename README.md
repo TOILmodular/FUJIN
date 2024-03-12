@@ -25,7 +25,7 @@ Each section contains a white noise generator.
 The noise signal is routed through a low-pass filter with cutoff and resonance controls.
 The signal is then split into two channels, each sent through a VCA to an output.
 
-#### Cutoff Knob and CUTOFF CV
+#### CUTOFF knob and CUTOFF CV
 The CUTOFF knob and CV input control the filter cutoff of the noise signal.
 The cutoff CV is normalled to four internal LFOs, so that the filter cutoff with no external CV plugged in is modulated by a combination of those LFOs.
 This modulation is slightly different for each section.
