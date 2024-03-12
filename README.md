@@ -17,7 +17,7 @@ Each internal noise source can be bypassed with an external signal input.
 
 A demo of the module is available in this YouTube video:
 
-[<img width="500" src="https://github.com/TOILmodular/CONTINUUM/assets/97026614/6f868cc5-263f-4b68-b0da-cafaf97a4cc4">
+<img width="500" src="https://github.com/TOILmodular/FUJIN/assets/97026614/6e20f427-5a2c-4069-b416-353bc8a022fa">
 
 ## How the Module works
 The module consists of four identical noise generating sections.
