@@ -1,7 +1,7 @@
 # FUJIN
 This Eurorack module provides a kind of wind or noise machine with four separate white noise sources.
 Each has a low-pass filter and two separate output channels via a VCA.
-VCA control is either from external signals or, if unplugged, via different combinations of internal LFOs.
+Each filter cutoff is either controlled from an external signal or, if unplugged, via different combinations of internal LFOs.
 Each internal noise source can be bypassed with an external signal input.
 
 <img height="500" src="https://github.com/TOILmodular/CONTINUUM/assets/97026614/9aa25208-d464-4d61-b3e9-2e5df699201f">
