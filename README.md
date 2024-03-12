@@ -8,11 +8,11 @@ Each internal noise source can be bypassed with an external signal input.
 <img height="500" src="https://github.com/TOILmodular/CONTINUUM/assets/97026614/58ca1409-5d84-451c-b231-6b8a6a3aa704">
 
 #### Features
-- Four separate noise sources, which can be bypassed by external signals
+- Four separate noise sources, which can be bypassed with external signals
 - Separate low-pass filters with cutoff CV
 - Two output channels (useful for stereo effects)
 - Eight separate VCAs with external CV inputs and bias for each noise source/output channel combination
-- Internal VCA modulation via different combinations of four LFOs, normalled to the external CV inputs
+- Internal filter cutoff modulation via different combinations of four LFOs, normalled to the external CV inputs
 - Module width 26HP
 
 A demo of the module is available in this YouTube video:
