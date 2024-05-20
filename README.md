@@ -26,7 +26,7 @@ However, since most DIY projects for Eurorack modules out there are using potent
 
 The main PCB is the same for both versions.
 
-<img width="300" alt="MainPCB" src="https://github.com/TOILmodular/FUJIN/assets/97026614/0f7e31c0-a12c-4b9c-9fea-69334bd33caa">
+<img width="300" alt="MainPCB" src="https://github.com/TOILmodular/FUJIN/assets/97026614/37f8386a-e996-4c1b-880e-b4f73e710f32">
 
 I created the Gerber files with the online tool EasyEDA and ordered the PCBs at JLCPCB.
 
