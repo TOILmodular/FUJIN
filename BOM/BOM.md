@@ -3,6 +3,7 @@
 | Description | Value | Quantity | |
 | --- | --- | --- | --- |
 | Resistor 1/4W | 100R | 3 | |
+| Resistor 1/4W | 470R | 1 | |
 | Resistor 1/4W | 620R | 4 | |
 | Resistor 1/4W | 1K | 17 | |
 | Resistor 1/4W | 2K | 1 | |
@@ -30,7 +31,7 @@
 | Resistor 1/4W | 2M | 1 | |
 | Resistor 1/4W | 4.7M | 2 | |
 | Resistor 1/4W | LED | 7 | Choose the resistor value depending on the LED used and brightness preferred, I used 100K for blue LEDs |
-| Trimmer | 100K | 1 | multi-turn |
+| Trimmer | 100R | 1 | multi-turn |
 | Capacitor Electrolytic | 22uF | 2 | |
 | Capacitor Electrolytic | 1uF | 1 | |
 | Capacitor Ceramic | 0.47uF | 2 | |
