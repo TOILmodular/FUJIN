@@ -1,50 +1,18 @@
 # FUJIN
-This Eurorack module provides a kind of wind or noise machine with four separate white noise sources.
-Each has a low-pass filter and two separate output channels via a VCA.
-Each filter cutoff is either controlled from an external signal or, if unplugged, via different combinations of internal LFOs.
-Each internal noise source can be bypassed with an external signal input.
+This Eurorack module provides a kind of wind or noise machine with four different selectable noise types, blue, white, pink, and a grainy white noise (meaning that the noise signal is peaking only occasionally with the frequency of peaks being controllable).
+
+The module contains a state-variable filter with selectable modes, lowpass, bandpass, and highpass.
+
+The output signal is send to two separate VCAs and two separate output channels.
+
+There is CV control for the filter cutoff, which is following the 1volt/oct standard for the filter self-resonance, as well as CV control for the filter resonance.
 
 <img height="500" src="https://github.com/TOILmodular/CONTINUUM/assets/97026614/9aa25208-d464-4d61-b3e9-2e5df699201f">
 <img height="500" src="https://github.com/TOILmodular/CONTINUUM/assets/97026614/58ca1409-5d84-451c-b231-6b8a6a3aa704">
 
-#### Features
-- Four separate noise sources, which can be bypassed with external signals
-- Separate low-pass filters with cutoff CV
-- Two output channels (useful for stereo effects)
-- Eight separate VCAs with external CV inputs and bias for each noise source/output channel combination
-- Internal filter cutoff modulation via different combinations of four LFOs, normalled to the external CV inputs
-- Module width 26HP
-
 A demo of the module is available in this YouTube video:
 
 <img width="500" src="https://github.com/TOILmodular/FUJIN/assets/97026614/6e20f427-5a2c-4069-b416-353bc8a022fa">
-
-## How the Module works
-The module consists of four identical noise generating sections.
-Each section contains a white noise generator.
-The noise signal is routed through a low-pass filter with cutoff and resonance controls.
-The signal is then split into two channels, each sent through a VCA to an output.
-
-#### CUTOFF knob and CUTOFF CV
-The CUTOFF knob and CV input control the filter cutoff of the noise signal.
-The cutoff CV is normalled to four internal LFOs, so that the filter cutoff with no external CV plugged in is modulated by a combination of those LFOs.
-This modulation is slightly different for each section.
-
-#### IN 
-The noise signal can be replaced by any other external signal via this input. The internal noise generator is normalled to this jack.
-
-#### RESONANCE knob
-The filter resonance can be controlled via the RESONANCE knob. The filter is not self-oscillating.
-
-#### BIAS knobs and CV inputs (channels A and B)
-Each of the two channels has an own VCA controllable via CV input and with a BIAS knob to as a CV offset.
-
-#### VOLUME knobs (channels A and B)
-Volume knobs for each of the output channels.
-
-#### OUT (channels A and B)
-Output jacks for each of the channels.
-Those in combination with the VCA controls can be used for a stereo effect of the module.
 
 ## Module Build and PCBs
 I added two different versions for the control board in the folder GerberFiles, an "original", and a "Thonk" version.
@@ -64,7 +32,7 @@ I created the Gerber files with the online tool EasyEDA and ordered the PCBs at 
 
 ## Additional Information about specific Components
 The module build is mainly THT, including all ICs.
-However, there are a number SMD capacitors with the package size 1608 (imperial 0603) and a few MMBT3904 transistors, package size SOT-23-3.
+However, there are a number SMD capacitors with the package size 1608 (imperial 0603) and a few MMBT3904/MMBT3906 transistors, package size SOT-23-3.
 
 For the "Original" version three of the IC sockets on the control board need to be soldered in a specific way, as described in the next section. For the "Thonk" version, all sockets are to be soldered the usual way.
 
