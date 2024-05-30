@@ -53,7 +53,8 @@
 | Dual Binary Up-Counter | CD4520 | 1 | |
 | Quad Bilateral Switch | CD4066 | 2 | |
 | Dual OTA | LM13700 | 3 | |
-| Potentiometer | B100K | 5 | |
+| Potentiometer | B100K | 4 | |
+| Potentiometer | C100K | 1 | This pot is used for the grainity amount of the grainy noise. You can also use a B-type pot, However, that might result in a quite steep decline of gains, when turning from fully clockwise to about 12 o'clock, and not much change further counter-clockwise, as the probability for any grain is already quite small. |
 | Switch | Tactile | 2 | e.g. Mouser: TL1105SPF160Q1RBLK |
 | Mono Jack | 3.5mm | 7 | |
 | Header | 2.54mm Male 1x6 | 3 | Connector Main Board |
