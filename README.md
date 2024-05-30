@@ -3,7 +3,7 @@ This Eurorack module provides a kind of wind or noise machine with four differen
 
 <img height="500" src="https://github.com/TOILmodular/FUJIN/assets/97026614/617903a5-c87b-41ec-8233-57ae8f94735c">
 <img height="500" src="https://github.com/TOILmodular/FUJIN/assets/97026614/408779c2-5244-41d4-98a5-1d41e1350dce">
-<img height="500" src="https://github.com/TOILmodular/FUJIN/assets/97026614/6e594d7e-afd0-4979-8a10-0778e50dc5ca">
+<img height="300" src="https://github.com/TOILmodular/FUJIN/assets/97026614/6e594d7e-afd0-4979-8a10-0778e50dc5ca">
 
 The module contains a state-variable filter with selectable modes, lowpass, bandpass, and highpass.
 
@@ -12,14 +12,14 @@ The output signal is send to two separate VCAs and two separate output channels.
 There is CV control for the filter cutoff, which is following the 1volt/oct standard for the filter self-resonance, as well as CV control for the filter resonance.
 
 Filter modes and noise types can be selected via two push buttons on the front panel.
-The selection does not only allow one mode, but also any combination of modes by pushing the button multiple times.
+The selection does not only allow one mode, but also any combination of modes by pushing each button multiple times.
 Initially, this was an unplanned outcome of the module design, as I am using a dual binary up-counter IC (CD4520).
 I was looking for an IC with two counters integrated in order to reduce the number of ICs on the board.
 This is not a simple step counter like the CD4017, and the binary nature leads to not only single active bits, but also all combinations.
 So I decided to use this as a feature and combine different selected noise outputs, as well as sending the noise simultaneously through different filter modes and combine the output afterwards.
 This provides a larger variety of noises and filter effects.
 
-A demo of the module with there selection options is available in this YouTube video:
+A demo of the module with these selection options is available in this YouTube video:
 
 <img width="500" src="https://github.com/TOILmodular/FUJIN/assets/97026614/c74b9404-edde-40d6-b3db-43848d0cf9f2">
 
