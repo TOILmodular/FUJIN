@@ -11,7 +11,6 @@
 | Resistor 1/4W | 6.8K | 2 | |
 | Resistor 1/4W | 7.5K | 2 | |
 | Resistor 1/4W | 10K | 7 | |
-| Resistor 1/4W | 18K | 2 | |
 | Resistor 1/4W | 20K | 2 | |
 | Resistor 1/4W | 30K | 4 | |
 | Resistor 1/4W | 33K | 4 | |
@@ -19,7 +18,7 @@
 | Resistor 1/4W | 43K | 3 | |
 | Resistor 1/4W | 47K | 2 | |
 | Resistor 1/4W | 51K | 4 | |
-| Resistor 1/4W | 100K | 25 | |
+| Resistor 1/4W | 100K | 27 | |
 | Resistor 1/4W | 120K | 3 | |
 | Resistor 1/4W | 150K| 4 | |
 | Resistor 1/4W | 180K | 1 | |
@@ -33,7 +32,7 @@
 | Resistor 1/4W | LED | 7 | Choose the resistor value depending on the LED used and brightness preferred, I used 100K for blue LEDs |
 | Trimmer | 100R | 1 | multi-turn |
 | Capacitor Electrolytic | 22uF | 2 | |
-| Capacitor Electrolytic | 1uF | 1 | |
+| Capacitor Electrolytic | 1uF | 3 | |
 | Capacitor Ceramic | 0.47uF | 2 | |
 | Capacitor Ceramic | 0.1uF | 33 | SMD (1608) |
 | Capacitor Ceramic | 0.01uF | 1 | |
@@ -47,6 +46,8 @@
 | LED | 3mm | 7 | |
 | Transistor | MMBT3904 | 10 | SMD (SOT-23-3) |
 | Transistor | MMBT3906 | 4 | SMD (SOT-23-3) |
+| Voltage Regulator | LM78L09 | 1 | |
+| Voltage Regulator | LM79L09 | 1 | |
 | Op Amp | TL074 | 5 | |
 | Op Amp | TL072 | 1 | |
 | Dual Binary Up-Counter | CD4520 | 1 | |
