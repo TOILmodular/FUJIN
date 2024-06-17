@@ -21,7 +21,7 @@ This provides a larger variety of noises and filter effects.
 
 A demo of the module with these selection options is available in this YouTube video:
 
-<img width="500" src="https://github.com/TOILmodular/FUJIN/assets/97026614/c74b9404-edde-40d6-b3db-43848d0cf9f2">
+[<img width="500" src="https://github.com/TOILmodular/FUJIN/assets/97026614/c74b9404-edde-40d6-b3db-43848d0cf9f2">](https://youtu.be/SxoPExMNCzY)
 
 ## Module Build and PCBs
 I added two different versions for the control board in the folder GerberFiles, an "original", and a "Thonk" version.
