@@ -39,7 +39,7 @@
 | Capacitor Ceramic | 1000pF | 3 | |
 | Capacitor Ceramic | 220pF | 2 | |
 | Capacitor Ceramic | 100pF | 2 | |
-| Capacitor Ceramic | 22pF | 2 | |
+| Capacitor Ceramic | 22pF | 1 | |
 | Capacitor Ceramic | 10pF | 1 | |
 | Diode | 1N5819 | 2 | |
 | Diode | 1N4148 | 5 | |
